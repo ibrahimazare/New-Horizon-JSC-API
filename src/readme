@@ -1,0 +1,32 @@
+
+ // 1. npm init to initialise the project, it install node_modules
+// and package.json
+
+
+// 2. install typeorm to enable communication with db
+// 3. npm i typeorm
+// 4. npm i bcrypt // dependencies
+
+// ----------------------------------------
+// Getting Started with TypeORM:
+// Install TypeORM and the database driver for your chosen database (e.g., MySQL, PostgreSQL):
+
+// bash
+// Copy code
+// npm install typeorm reflect-metadata mysql2
+// Replace mysql2 with the appropriate database driver if you're using a different database.
+
+// Setup ormconfig.json: Create a configuration file to define database connection settings:
+
+// json
+// Copy code
+// {
+//   "type": "mysql",
+//   "host": "localhost",
+//   "port": 3306,
+//   "username": "root",
+//   "password": "password",
+//   "database": "test",
+//   "entities": ["src/entity/*.js"],
+//   "synchronize": true
+// }
